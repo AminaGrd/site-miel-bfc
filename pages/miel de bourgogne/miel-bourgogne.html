@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miel'Eux - Miel de Bourgogne</title>
+    <link rel="stylesheet" href="miel-bourgogne.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            
+            <a href="../../index.html"><img class="logo" src="../../images/logo-mieleux.png" alt="logo Miel'Eux"></a>
+            <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">&#9776;</a>
+            <nav>
+                <a href="../../index.html"class="actived blanc" class="topnav__nav--erased">Accueil</a>
+                <div class="dropdown" >
+                    <div class="active">
+                        <button class="dropbtn">Miel
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="miel-bourgogne.html">Miel de Bourgogne</a>
+                        <a href="../../pages/miel de franche-comte/miel-fc.html">Miel de Franche-Comté</a>
+                    </div>
+                </div>
+                <a href="../../pages/epicerie fine/epicerie-fine.html" class="blanc">Epicerie fine</a>
+                <a href="../../pages/a propos/a-propos.html" class="blanc">A propos</a>
+
+            </nav>
+            <div class="div-size"></div>
+        </div>
+        
+    </header>
+    <main>
+        <h1>Les Miels de Bourgogne</h1>
+        <div class="main__separation">
+            <img src="../../images/separation.png"/>
+        </div>
+            <div class="main__row">
+                <div class="main__row-left">
+                <h2>Catégories</h2>
+                <input type="text" id="main__row-left-searchbar" onkeyup="navigation()" placeholder="Rechercher..." title="Type in a category">
+                <ul id="main__row-left-menu">
+                    <li>
+                        <a href="#">Localisation</a>
+                        <ul class="main__row-left-menu-subcategory">
+                            <li><a href="#">Côte d'Or</a></li>
+                            <li><a href="#">Nièvre</a></li>
+                            <li><a href="#">Saône-et-Loire</a></li>
+                            <li><a href="#">Yonne</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Goût</a>
+                        <ul class="main__row-left-menu-subcategory">
+                            <li><a href="#">Fleurs</a></li>
+                            <li><a href="#">Arbres</a></li>
+                            <li><a href="#">Spécifiques</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Bio</a></li>
+                </ul>
+                </div>
+                
+                <div class="main__row-right">
+                    <div class="main__row-right--products">
+                        <div class="products">
+                            <img src="../../images/miel-bourgogne_1.png" alt="pot de miel">
+                            <p><strong>Miel d'acacia</strong></p>
+                            <p>Miel d'acacia d'un petit apiculteur de la Nièvre. Un miel fondant et coulant pour toutes les tartines que vous souhaitez.</p>
+                            <p><a href="#">#nievre</a> <a href="#">#arbres</a></p>
+                            <p class="products__button-infos"><a href="#">Plus d'infos...</a></p>
+                        </div>
+                        <div class="products">
+                            <img src="../../images/miel-bourgogne_2.png" alt="pot de miel">
+                            <p><strong>Miel de forêt</strong></p>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            <p><a href="#">#cotedor</a> <a href="#">#fleurs</a> <a href="#">#bio</a></p>
+                            <p class="products__button-infos"><a href="#">Plus d'infos...</a></p>
+                        </div>
+                        <div class="products">
+                            <img src="../../images/miel-bourgogne_3.png" alt="pot de miel">
+                            <p><strong>Miel de printemps</strong></p>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            <p><a href="#">#yonne</a> <a href="#">#fleurs</a></p>
+                            <p class="products__button-infos"><a href="#">Plus d'infos...</a></p>
+                        </div>
+                    </div>
+                    <div class="main__row-right--products">
+                        <div class="products">
+                            <img src="../../images/miel-bourgogne_4.png" alt="pot de miel">
+                            <p><strong>Miel d'erable</strong></p>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            <p><a href="#">#saonneetloire</a> <a href="#">#erables</a> <a href="#">#bio</a></p>
+                            <p class="products__button-infos"><a href="#">Plus d'infos...</a></p>
+                        </div>
+                        <div class="products">
+                            <img src="../../images/miel-bourgogne_5.png" alt="pot de miel">
+                            <p><strong>Miel d'été</strong></p>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            <p><a href="#">#cotedor</a> <a href="#">#fleurs</a> <a href="#">#bio</a></p>
+                            <p class="products__button-infos"><a href="#">Plus d'infos...</a></p>
+                        </div>
+                        <div class="products">
+                            <img src="../../images/miel-bourgogne_6.png" alt="pot de miel">
+                            <p><strong>Miel de lavande</strong></p>
+                            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+                            <p><a href="#" >#yonne</a> <a href="#">#fleurs</a></p>
+                            <p class="products__button-infos"><a href="#">Plus d'infos...</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div id="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+            </div>
+            <script>
+            function navigation() {
+                var input, filter, ul, li, a, i;
+                input = document.getElementById("main__row-left-searchbar");
+                filter = input.value.toUpperCase();
+                ul = document.getElementById("main__row-left-menu");
+                li = ul.getElementsByTagName("li");
+                for (i = 0; i < li.length; i++) {
+                a = li[i].getElementsByTagName("a")[0];
+                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                    li[i].style.display = "";
+                } else {
+                    li[i].style.display = "none";
+                }
+                }
+            }
+            </script>
+    </main> 
+    <footer>
+        
+        <div id="container">
+            <div id="infos">
+                <a href="../../pages/contact/contact.html">Nous contacter</a>
+                <a href="../mentions-legales/mentions-legales.html">Mentions légales</a>
+                <a href="#">Paramètre des cookies</a>
+                <a href="#">Navigation</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div id="reseaux">
+                <figure>
+                    <a href="#"><img src="../../images/logo-facebook.png" alt="logo facebook"></a>
+                    <a href="#"><img src="../../images/logo-insta.png" alt="logo instagram"></a>
+                    <a href="#"><img src="../../images/logo-youtube.png" alt="logo youtube"></a>
+                </figure>
+            </div>
+        </div>
+        <div id="footer-bee">
+            <img src="../../images/footer-bee2.png">
+        </div>
+    </footer>
+    <script>
+        function burgerMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</body>
+</html>

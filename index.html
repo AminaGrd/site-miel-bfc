@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miel'Eux - Accueil</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            
+            <a href="index.html"><img class="logo" src="images/logo-mieleux.png" alt="logo Miel'Eux"></a>
+            <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">&#9776;</a>
+            <nav>
+                <a href="index.html" class="active">Accueil</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Miel
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="pages/miel de bourgogne/miel-bourgogne.html">Miel de Bourgogne</a>
+                        <a href="pages/miel de franche-comte/miel-fc.html">Miel de Franche-Comté</a>
+                    </div>
+                </div>
+                <a href="pages/epicerie fine/epicerie-fine.html" class="blanc">Epicerie fine</a>
+                <a href="pages/a propos/a-propos.html" class="blanc">A propos</a>
+
+            </nav>
+            <div class="div-size"></div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="main__slider">
+            <div class="main__slider--slides">
+                <div class= "main__slider--slide"><img src= "images/accueil_slide1.jpg" alt=""></div>
+                <div class= "main__slider--slide"><img src= "images/accueil_slide2.jpg" alt=""></div>
+                <div class= "main__slider--slide"><img src= "images/accueil_slide3.jpg" alt=""></div>
+                <div class= "main__slider--slide"><img src= "images/accueil_slide4.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <h1>Nos articles</h1>
+
+        <article>
+            <div class="article__part">
+                <a href="pages/miel de bourgogne/miel-bourgogne.html"><img class="ruche1" src="images/accueil-mielbourgogne.png" alt=""></a>
+                <p class="article__part--infos"><a href= "pages/miel de bourgogne/miel-bourgogne.html"> ------- Miel de Bourgogne -------</a></p>
+            </div>
+
+            <div class="article__part">
+                <a href="pages/miel de franche-comte/miel-fc.html"><img class="ruche2" src="images/accueil-mieldeFC.png" alt=""></a>
+                <p class="article__part_-infos"><a href= "pages/miel de franche-comte/miel-fc.html">------- Miel de Franche-Comté -------</a></p>
+            </div>
+
+            <div class="articles__part">
+                <a href="pages/epicerie fine/epicerie-fine.html"><img class="ruche3" src="images/accueil-biere.png" alt=""></a>
+                <p class="articles__part--infos"><a href= "pages/epicerie fine/epicerie-fine.html">------- Epicerie fine -------</a></p>
+            </div>
+        </article>
+
+        <div class="main__history--background">
+            <div class="main__history">
+                <p><a href= "pages/a propos/a-propos.html">Notre histoire</a></p>
+            </div>
+        </div>
+
+        <div class="main__separation">
+            <img src="images/separation.png"/>
+        </div>
+
+        <data>
+            <div class="data__div">
+                <div class="data__circle">
+                    <p>75</p>
+                </div>
+                    <p>Apiculteurs</p>
+            </div>
+        
+            <div class="data__div">
+                <div class="data__circle">
+                    <p>2154</p>
+                </div>
+                    <p>Ruches</p>
+            </div>
+
+            <div class="data__div">
+                <div class="data__circle">
+                    <p>246</p>
+                </div>
+                <p>Produits</p>
+            </div>
+        </data>
+    </main>
+    
+    <footer>
+        
+        <div id="container">
+            <div id="infos">
+                <a href="pages/contact/contact.html">Nous contacter</a>
+                <a href="pages/mentions-legales/mentions-legales.html">Mentions légales</a>
+                <a href="#">Paramètre des cookies</a>
+                <a href="#">Navigation</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div id="reseaux">
+                <figure>
+                    <a href="#"><img src="images/logo-facebook.png" alt="logo facebook"></a>
+                    <a href="#"><img src="images/logo-insta.png" alt="logo instagram"></a>
+                    <a href="#"><img src="images/logo-youtube.png" alt="logo youtube"></a>
+                </figure>
+            </div>
+        </div>
+        <div id="footer-bee">
+            <img src="images/footer-bee2.png">
+        </div>
+    </footer>
+    <script>
+        function burgerMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</body>
+</html>

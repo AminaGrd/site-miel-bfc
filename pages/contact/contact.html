@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miel'Eux - Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            
+            <a href="../../index.html"><img class="logo" src="../../images/logo-mieleux.png" alt="logo Miel'Eux"></a>
+            <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">&#9776;</a>
+            <nav>
+                <a href="../../index.html" class="actived blanc">Accueil</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Miel
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../../pages/miel de bourgogne/miel-bourgogne.html">Miel de Bourgogne</a>
+                        <a href="../../pages/miel de franche-comte/miel-fc.html">Miel de Franche-Comté</a>
+                    </div>
+                </div>
+                <a href="../../pages/epicerie fine/epicerie-fine.html" class="blanc">Epicerie fine</a>
+                <a href="../../pages/a propos/a-propos.html" class="active">A propos</a>
+
+            </nav>
+            <div class="div-size"></div>
+        </div>
+        
+    </header>
+    <main>
+        <h1>Nous contacter</h1>
+        <div class="main__separation">
+            <img src="../../images/separation.png"/>
+        </div>
+        <div id="main__container">
+            <div class="main__container--contact">
+                <p><a href="mailto:contact@mieleux.com">contact@mieleux.com</a></p>
+            </div>
+            <div class="main__container--contact">
+                <p>06 12 34 56 78</p>
+            </div>
+        </div>
+        <div id="main__iframe">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2704.5581515096987!2d5.03379151586454!3d47.3229698155207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f29deb9eac7683%3A0x3fee5e87b04ad1ed!2s15%20Rue%20de%20la%20Libert%C3%A9%2C%2021000%20Dijon!5e0!3m2!1sfr!2sfr!4v1649853624305!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+
+    <footer>
+        
+        <div id="container">
+            <div id="infos">
+                <a href="contact.html">Nous contacter</a>
+                <a href="../../pages/mentions-legales/mentions-legales.html">Mentions légales</a>
+                <a href="#">Paramètre des cookies</a>
+                <a href="#">Navigation</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div id="reseaux">
+                <figure>
+                    <a href="#"><img src="../../images/logo-facebook.png" alt="logo facebook"></a>
+                    <a href="#"><img src="../../images/logo-insta.png" alt="logo instagram"></a>
+                    <a href="#"><img src="../../images/logo-youtube.png" alt="logo youtube"></a>
+                </figure>
+            </div>
+        </div>
+        <div id="footer-bee">
+            <img src="../../images/footer-bee2.png">
+        </div>
+    </footer>
+    <script>
+        function burgerMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</body>
+</html>

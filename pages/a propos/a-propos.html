@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miel'Eux - A propos</title>
+    <link rel="stylesheet" href="a-propos.css">
+</head>
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            
+            <a href="../../index.html"><img class="logo" src="../../images/logo-mieleux.png" alt="logo Miel'Eux"></a>
+            <a href="javascript:void(0);" class="icon" onclick="burgerMenu()">&#9776;</a>
+            <nav>
+                <a href="../../index.html" class="actived blanc">Accueil</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Miel
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="../../pages/miel de bourgogne/miel-bourgogne.html">Miel de Bourgogne</a>
+                        <a href="../../pages/miel de franche-comte/miel-fc.html">Miel de Franche-Comté</a>
+                    </div>
+                </div>
+                <a href="../../pages/epicerie fine/epicerie-fine.html" class="blanc">Epicerie fine</a>
+                <a href="a-propos.html" class="active">A propos</a>
+
+            </nav>
+            <div class="div-size"></div>
+        </div>
+        
+    </header>
+    <main>
+        <h1>A propos de Nous</h1>
+        <div class="main__separation">
+            <img src="../../images/separation.png"/>
+        </div>
+        <div class="main__story">
+            <h2>Notre histoire</h2>
+                <img src="../../images/apropos_histoire.png" alt="story">
+
+                <p>Miel'Eux est une organisation créee par 3 amis et amateurs de miel en 2002 qui regroupe tous les <strong>apiculteurs de Bourgogne Franche-Comté.</strong></p><br>
+            
+                <p>Miel'Eux travaille avec un réseau <strong>d'apiculteurs local</strong> avec lequel un lien de confiance s'est tissé depuis plusieurs années.</p><br>
+
+                <p>Le but de la plateforme est de regrouper toutes les enseignes de nos apiculteurs et leurs produits afin de <strong>le travail des apiculteurs et de les aider à se développer auprès des locaux.</strong></p></h3>
+        </div>
+
+        <div class="main__ethics">
+            <h2>Notre éthique</h2>
+                <img src="../../images/apropos_ethique.png" alt="ethics">
+
+                <p>Pour la plateforme Miel'Eux, il est indispensable <strong>d'entretenir un lien de confiance étroit et durable</strong> avec des apiculteurs qui défendent les mêmes <strong>valeurs</strong> que nous depuis de nombreuses années, à savoir : 
+        
+                <div class="main__ethics--bulletedlist">  
+                    <li>Un travail de qualité.</li>
+                    <li>Des floraisons issues de terroirs sauvages privilégiés et protégés.</li>
+                    <li>Un partage de la vision d'une apiculture raisonnée, sans pression de rendement.</li><br>
+                </div>                   
+                <p>Nous connaissons nos apiculteurs. La <strong>confiance instaurée depuis 20 ans</strong>  au sein de notre réseau nous permet de toujours proposer des miels nouveaux, équilibrés, savoureux et respectueux de l'environnement.</p><br>
+        
+                <div class="main__ethics--respect">
+                    <p>Le respect des abeilles et des conditions de vie de l'apiculteur sont au coeur de notre préoccupation, les deux nous le rendent grâce à leur travail fabuleux qui profite à tous !</p>
+                </div>
+            
+        </div>
+        
+        <div class="main__witness">
+                <img src="../../images/apropos_temoignage.png" alt="witness">
+                
+                <figure>
+                    <blockquote><p>"Grâce à cette plateforme, j'ai pu découvrir un apiculteur qui habite à<br>quelques pas de chez moi. Depuis, j'achète tous mes pots de miel la-bas !"</p></blockquote>                  
+                    <figcaption>Anastasia BOCK</figcaption> 
+                </figure>
+        </div>
+    </main>
+
+
+    <footer>
+        
+        <div id="container">
+            <div id="infos">
+                <a href="../../pages/contact/contact.html">Nous contacter</a>
+                <a href="../mentions-legales/mentions-legales.html">Mentions légales</a>
+                <a href="#">Paramètre des cookies</a>
+                <a href="#">Navigation</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div id="reseaux">
+                <figure>
+                    <a href="#"><img src="../../images/logo-facebook.png" alt="logo facebook"></a>
+                    <a href="#"><img src="../../images/logo-insta.png" alt="logo instagram"></a>
+                    <a href="#"><img src="../../images/logo-youtube.png" alt="logo youtube"></a>
+                </figure>
+            </div>
+        </div>
+        <div id="footer-bee">
+            <img src="../../images/footer-bee2.png">
+        </div>
+    </footer>
+    <script>
+        function burgerMenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+</body>
+</html>
